@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+dist/
+build/
+.vscode/
+.idea/
+*.code-workspace
+__MACOSX/
+*.orig
+*.rej
+*.patch
