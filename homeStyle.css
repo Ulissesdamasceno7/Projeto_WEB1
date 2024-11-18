@@ -1,0 +1,40 @@
+.navbar-brand {
+    width: 138px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #ffffff !important; /* Força o estilo */
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #3820FD 65.5%, #211397 100%);
+  }
+  
+  .search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-control {
+    width: auto;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #211397;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #ffffff;
+  }
+  
