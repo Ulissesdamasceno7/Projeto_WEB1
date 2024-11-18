@@ -1,40 +1,44 @@
-.navbar-brand {
-    width: 138px;
-    height: 41px;
-    flex-shrink: 0;
-    color: #ffffff !important; /* Força o estilo */
-    text-align: center;
-    font-family: "Russo One", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
+#navbar {
     background: linear-gradient(90deg, #3820FD 65.5%, #211397 100%);
-  }
-  
-  .search-container {
-    flex: 1;
+    height: 123px;
+    
+}
+
+#navbar .row {
+    height: 100%;
     display: flex;
     justify-content: center;
-  }
-  
-  .form-control {
+    align-items: center;
+}
+
+#navbar .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+#navbar img {
+    width: 250px;
+    height: 250px;
+}
+
+form.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
     width: auto;
-  }
-  
-  .btn-warning {
-    background-color: #ffc107;
+}
+
+.btn-warning {
+    background: linear-gradient(180deg, #FFCB00 0%, #D6AA00 100%);
     color: #211397;
     border: none;
-  }
-  
-  .btn-warning:hover {
+}
+
+.btn-warning:hover {
     background-color: #e0a800;
     color: #ffffff;
-  }
-  
+}
